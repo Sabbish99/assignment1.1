@@ -1,0 +1,120 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+
+/* common work  */
+.font-style {
+    font-size: 1.5em;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(255, 79, 9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section img {
+    width: auto;
+    height: 300px;
+}
+
+.center-align {
+    text-align: center;
+    font-size: 2em;
+}
+
+.center-align-2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* 1st section er kaj */
+
+.first-sec {
+
+    margin: 2%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.two-child {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+/* 2nd section er kaj */
+.three-box {
+
+    margin: 3% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: center;
+}
+
+.child {
+    margin: 20px;
+}
+
+.three-img {
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+/* 3rd section */
+.third-sec {
+
+
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.last-step {
+    background-color: rgb(74, 92, 255);
+    color: white;
+}
+
+.child-2 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.third-sec li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.website i {
+    padding-right: 30px;
+}
+
+.black-btn {
+    padding: 0px 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+}
