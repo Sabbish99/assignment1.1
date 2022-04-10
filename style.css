@@ -2,6 +2,7 @@ body {
     font-family: 'Rubik', sans-serif;
     margin: 0px;
     padding: 0%;
+    background-color: rgb(255, 255, 246);
 }
 
 /* common work  */
@@ -67,11 +68,13 @@ section img {
     gap: 50px;
 
 
+
 }
 
 .shadow {
     box-shadow: 3px 3px 20px;
     background-color: rgb(232, 255, 253);
+    border-radius: 2px;
 
 }
 
