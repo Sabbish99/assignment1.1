@@ -43,6 +43,7 @@ section img {
     grid-template-columns: repeat(2, 1fr);
 
 
+
 }
 
 .two-child {
@@ -60,15 +61,30 @@ section img {
 /* 2nd section er kaj */
 .three-box {
 
-    margin: 3% 5% 5% 5%;
+    margin: 2% 5% 5% 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+
+
+}
+
+.shadow {
+    box-shadow: 3px 3px 20px;
+    background-color: rgb(232, 255, 253);
+
+}
+
+.center-img {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .child {
     margin: 20px;
+
 }
 
 .three-img {
@@ -77,7 +93,10 @@ section img {
     margin-left: 20px;
     margin-top: 20px;
 
+
 }
+
+
 
 /* 3rd section */
 .third-sec {
